@@ -1,0 +1,20 @@
+.grille-contains{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.partie img{
+  max-width: 80px;
+    
+}
+
+.partie{
+  
+  padding: 15px;
+}
+
+.mini-image{
+  max-width: 80px;
+}
